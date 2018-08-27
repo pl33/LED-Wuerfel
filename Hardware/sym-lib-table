@@ -1,0 +1,3 @@
+(sym_lib_table
+  (lib (name Wuerfel-rescue)(type Legacy)(uri ${KIPRJMOD}/Wuerfel-rescue.lib)(options "")(descr ""))
+)

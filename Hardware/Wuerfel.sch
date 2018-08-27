@@ -1,38 +1,6 @@
-EESchema Schematic File Version 2
-LIBS:power
-LIBS:device
-LIBS:switches
-LIBS:relays
-LIBS:motors
-LIBS:transistors
-LIBS:conn
-LIBS:linear
-LIBS:regul
-LIBS:74xx
-LIBS:cmos4000
-LIBS:adc-dac
-LIBS:memory
-LIBS:xilinx
-LIBS:microcontrollers
-LIBS:dsp
-LIBS:microchip
-LIBS:analog_switches
-LIBS:motorola
-LIBS:texas
-LIBS:intel
-LIBS:audio
-LIBS:interface
-LIBS:digital-audio
-LIBS:philips
-LIBS:display
-LIBS:cypress
-LIBS:siliconi
-LIBS:opto
-LIBS:atmel
-LIBS:contrib
-LIBS:valves
+EESchema Schematic File Version 4
 LIBS:Wuerfel-cache
-EELAYER 25 0
+EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -47,172 +15,172 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Comp
-L ATTINY13A-PU U1
+L Wuerfel-rescue:ATTINY13A-PU U1
 U 1 1 5A9C4828
 P 6650 3750
 F 0 "U1" H 5850 4150 50  0000 C CNN
 F 1 "ATTINY13A-PU" H 7300 3350 50  0000 C CNN
-F 2 "Housings_DIP:DIP-8_W7.62mm" H 7300 3750 50  0001 C CIN
+F 2 "Package_DIP:DIP-8_W7.62mm" H 7300 3750 50  0001 C CIN
 F 3 "" H 5850 4100 50  0001 C CNN
 	1    6650 3750
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R7
+L Wuerfel-rescue:R R7
 U 1 1 5A9C4ADE
 P 4800 4300
 F 0 "R7" V 4880 4300 50  0000 C CNN
 F 1 "100R" V 4800 4300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4730 4300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4730 4300 50  0001 C CNN
 F 3 "" H 4800 4300 50  0001 C CNN
 	1    4800 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R6
+L Wuerfel-rescue:R R6
 U 1 1 5A9C5357
 P 4450 4300
 F 0 "R6" V 4530 4300 50  0000 C CNN
 F 1 "100R" V 4450 4300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 4300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4380 4300 50  0001 C CNN
 F 3 "" H 4450 4300 50  0001 C CNN
 	1    4450 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R5
+L Wuerfel-rescue:R R5
 U 1 1 5A9C53B7
 P 4100 4300
 F 0 "R5" V 4180 4300 50  0000 C CNN
 F 1 "100R" V 4100 4300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4030 4300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 4030 4300 50  0001 C CNN
 F 3 "" H 4100 4300 50  0001 C CNN
 	1    4100 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R4
+L Wuerfel-rescue:R R4
 U 1 1 5A9C53DD
 P 3750 4300
 F 0 "R4" V 3830 4300 50  0000 C CNN
 F 1 "100R" V 3750 4300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 4300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3680 4300 50  0001 C CNN
 F 3 "" H 3750 4300 50  0001 C CNN
 	1    3750 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R3
+L Wuerfel-rescue:R R3
 U 1 1 5A9C5402
 P 3400 4300
 F 0 "R3" V 3480 4300 50  0000 C CNN
 F 1 "100R" V 3400 4300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3330 4300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 3330 4300 50  0001 C CNN
 F 3 "" H 3400 4300 50  0001 C CNN
 	1    3400 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R2
+L Wuerfel-rescue:R R2
 U 1 1 5A9C542A
 P 3050 4300
 F 0 "R2" V 3130 4300 50  0000 C CNN
 F 1 "100R" V 3050 4300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2980 4300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2980 4300 50  0001 C CNN
 F 3 "" H 3050 4300 50  0001 C CNN
 	1    3050 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L R R1
+L Wuerfel-rescue:R R1
 U 1 1 5A9C5455
 P 2700 4300
 F 0 "R1" V 2780 4300 50  0000 C CNN
 F 1 "100R" V 2700 4300 50  0000 C CNN
-F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 4300 50  0001 C CNN
+F 2 "Resistor_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal" V 2630 4300 50  0001 C CNN
 F 3 "" H 2700 4300 50  0001 C CNN
 	1    2700 4300
 	1    0    0    -1  
 $EndComp
 $Comp
-L LED D7
+L Wuerfel-rescue:LED D7
 U 1 1 5A9C54B1
 P 4800 4800
 F 0 "D7" H 4800 4900 50  0000 C CNN
 F 1 "LED" H 4800 4700 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm" H 4800 4800 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4800 4800 50  0001 C CNN
 F 3 "" H 4800 4800 50  0001 C CNN
 	1    4800 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D6
+L Wuerfel-rescue:LED D6
 U 1 1 5A9C55C4
 P 4450 4800
 F 0 "D6" H 4450 4900 50  0000 C CNN
 F 1 "LED" H 4450 4700 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm" H 4450 4800 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4450 4800 50  0001 C CNN
 F 3 "" H 4450 4800 50  0001 C CNN
 	1    4450 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D5
+L Wuerfel-rescue:LED D5
 U 1 1 5A9C55F8
 P 4100 4800
 F 0 "D5" H 4100 4900 50  0000 C CNN
 F 1 "LED" H 4100 4700 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm" H 4100 4800 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 4100 4800 50  0001 C CNN
 F 3 "" H 4100 4800 50  0001 C CNN
 	1    4100 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D4
+L Wuerfel-rescue:LED D4
 U 1 1 5A9C5885
 P 3750 4800
 F 0 "D4" H 3750 4900 50  0000 C CNN
 F 1 "LED" H 3750 4700 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm" H 3750 4800 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 3750 4800 50  0001 C CNN
 F 3 "" H 3750 4800 50  0001 C CNN
 	1    3750 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D3
+L Wuerfel-rescue:LED D3
 U 1 1 5A9C58DB
 P 3400 4800
 F 0 "D3" H 3400 4900 50  0000 C CNN
 F 1 "LED" H 3400 4700 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm" H 3400 4800 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 3400 4800 50  0001 C CNN
 F 3 "" H 3400 4800 50  0001 C CNN
 	1    3400 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D2
+L Wuerfel-rescue:LED D2
 U 1 1 5A9C591C
 P 3050 4800
 F 0 "D2" H 3050 4900 50  0000 C CNN
 F 1 "LED" H 3050 4700 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm" H 3050 4800 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 3050 4800 50  0001 C CNN
 F 3 "" H 3050 4800 50  0001 C CNN
 	1    3050 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L LED D1
+L Wuerfel-rescue:LED D1
 U 1 1 5A9C5960
 P 2700 4800
 F 0 "D1" H 2700 4900 50  0000 C CNN
 F 1 "LED" H 2700 4700 50  0000 C CNN
-F 2 "LEDs:LED_D5.0mm" H 2700 4800 50  0001 C CNN
+F 2 "LED_THT:LED_D5.0mm" H 2700 4800 50  0001 C CNN
 F 3 "" H 2700 4800 50  0001 C CNN
 	1    2700 4800
 	0    -1   -1   0   
 $EndComp
 $Comp
-L Battery_Cell BT1
+L Wuerfel-rescue:Battery_Cell BT1
 U 1 1 5A9C64A0
 P 8850 3300
 F 0 "BT1" H 8950 3400 50  0000 L CNN
@@ -223,7 +191,7 @@ F 3 "" V 8850 3360 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR01
+L power:GND #PWR01
 U 1 1 5A9C664B
 P 8850 3500
 F 0 "#PWR01" H 8850 3250 50  0001 C CNN
@@ -234,7 +202,7 @@ F 3 "" H 8850 3500 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR02
+L power:GND #PWR02
 U 1 1 5A9C66A1
 P 7800 4150
 F 0 "#PWR02" H 7800 3900 50  0001 C CNN
@@ -245,7 +213,7 @@ F 3 "" H 7800 4150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR03
+L power:GND #PWR03
 U 1 1 5A9C715A
 P 5300 5050
 F 0 "#PWR03" H 5300 4800 50  0001 C CNN
@@ -281,18 +249,18 @@ Wire Wire Line
 Wire Wire Line
 	5300 3500 5300 4450
 $Comp
-L SW_Push SW1
+L Wuerfel-rescue:SW_Push SW1
 U 1 1 5A9CCA93
 P 5300 4650
 F 0 "SW1" H 5350 4750 50  0000 L CNN
 F 1 "SW_Push" H 5300 4590 50  0000 C CNN
-F 2 "Buttons_Switches_THT:SW_PUSH_6mm_h7.3mm" H 5300 4850 50  0001 C CNN
+F 2 "Button_Switch_THT:SW_PUSH_6mm_H7.3mm" H 5300 4850 50  0001 C CNN
 F 3 "" H 5300 4850 50  0001 C CNN
 	1    5300 4650
 	0    -1   -1   0   
 $EndComp
 Wire Wire Line
-	5450 2300 8850 2300
+	5450 2300 7800 2300
 Wire Wire Line
 	2700 3600 5650 3600
 Wire Wire Line
@@ -312,7 +280,7 @@ Wire Wire Line
 Wire Wire Line
 	4800 4650 4800 4450
 $Comp
-L GND #PWR04
+L power:GND #PWR04
 U 1 1 5AA42CEA
 P 4800 5150
 F 0 "#PWR04" H 4800 4900 50  0001 C CNN
@@ -323,7 +291,7 @@ F 3 "" H 4800 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR05
+L power:GND #PWR05
 U 1 1 5AA42D7D
 P 4450 5150
 F 0 "#PWR05" H 4450 4900 50  0001 C CNN
@@ -334,7 +302,7 @@ F 3 "" H 4450 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR06
+L power:GND #PWR06
 U 1 1 5AA42DBB
 P 4100 5150
 F 0 "#PWR06" H 4100 4900 50  0001 C CNN
@@ -345,7 +313,7 @@ F 3 "" H 4100 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR07
+L power:GND #PWR07
 U 1 1 5AA42DF9
 P 3750 5150
 F 0 "#PWR07" H 3750 4900 50  0001 C CNN
@@ -356,7 +324,7 @@ F 3 "" H 3750 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR08
+L power:GND #PWR08
 U 1 1 5AA42E37
 P 3400 5150
 F 0 "#PWR08" H 3400 4900 50  0001 C CNN
@@ -367,7 +335,7 @@ F 3 "" H 3400 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR09
+L power:GND #PWR09
 U 1 1 5AA42E75
 P 3050 5150
 F 0 "#PWR09" H 3050 4900 50  0001 C CNN
@@ -378,7 +346,7 @@ F 3 "" H 3050 5150 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L GND #PWR010
+L power:GND #PWR010
 U 1 1 5AA42EB3
 P 2700 5150
 F 0 "#PWR010" H 2700 4900 50  0001 C CNN
@@ -419,24 +387,32 @@ D7
 Text Notes 3650 2600 0    60   ~ 0
 Order of LEDs
 Wire Wire Line
-	5650 3700 3050 3700
+	5650 3700 3400 3700
 Wire Wire Line
 	3050 3700 3050 4150
 Wire Wire Line
 	3400 3700 3400 4150
 Connection ~ 3400 3700
 Wire Wire Line
-	5650 3800 3750 3800
+	5650 3800 4100 3800
 Wire Wire Line
 	3750 3800 3750 4150
 Wire Wire Line
 	4100 3800 4100 4150
 Connection ~ 4100 3800
 Wire Wire Line
-	5650 3900 4450 3900
+	5650 3900 4800 3900
 Wire Wire Line
 	4450 3900 4450 4150
 Wire Wire Line
 	4800 3900 4800 4150
 Connection ~ 4800 3900
+Wire Wire Line
+	7800 2300 8850 2300
+Wire Wire Line
+	3400 3700 3050 3700
+Wire Wire Line
+	4100 3800 3750 3800
+Wire Wire Line
+	4800 3900 4450 3900
 $EndSCHEMATC
